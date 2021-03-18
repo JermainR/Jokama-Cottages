@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100,200.300.400.500.700|Exo:100,200,300,400,500,600,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*---Header---*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #24252a;
+    height: 100px;
+}
+
+li {
+    font-family: "montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+#logo {
+    cursor: pointer;
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 50px;
+    font-weight: 900;
+    list-style: none;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-right: 40px;
+    padding-top: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: #fff;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+/*---Body---*/
+
+.img {
+    background: url("../images/airbnb-kenya.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 32%;
+}
+
+.moto {
+    color: #fff;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+/*---Footer---*/
+
+footer {
+    background-color: #24252a;
+    height: 80px;
+}
+
+footer .footer-bottom {
+    color: #fff;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.footer-socials a {
+    padding-top: 40px;
+    padding-right: 40px;
+    float: right;
+    color: #fff;
+}
+
+.socials a li {
+    color: #e7f2f4;
+    padding-top: 10px 12px;
+    font-size: 20px;
+}
+
