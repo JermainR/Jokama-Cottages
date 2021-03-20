@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Jokama Cottages</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_IVIIM6wTwKKGIZl05d8nf");
+        })();
+    </script>
 </head>
 <body>
     <header>
@@ -18,7 +24,7 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="contact">
         <div>
             <h1>Talk To Us</h1>
         </div>
@@ -29,11 +35,11 @@
                 !2sHoma%20Bay%2C%20Kenya!5e0!3m2!1sen!2sie!4v1616083199180!5m2!1sen!2sie" 
                 width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <form id="conatct-form" method="POST" action="">
+            <form onsubmit="return sendMail(this)" method="POST">
             <input name="name" type="text" class="form-control" placeholder="Your Nmae" required><br>
             <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-                <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
-                <input type="submit" class="form-control submit" value="Send Message">
+            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+            <input type="submit" class="form-control submit" value="Send Message">
             </form>
         </div>
     </section>
@@ -47,5 +53,6 @@
             &copy; 2021 JokamaCottages | All Rights Reserved
         </div>
     </footer>
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 </html>
