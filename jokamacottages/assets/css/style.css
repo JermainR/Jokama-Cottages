@@ -14,7 +14,7 @@ header {
     background-color: #24252a;
     width: 100%;
     height: 100px;
-    position: fixed;
+    /*position: fixed;*/
 }
 
 li {
@@ -201,44 +201,6 @@ img {
     border-radius: 10px;
 }
 
-.rongo {
-    position: relative;
-    /*padding-top: 50px;*/
-    background: #fff;
-    width: 100%;
-    height: auto;
-    background: rgb(255, 214, 214);
-}
-
-.row-container {
-    position: relative;
-    width: 1200px;
-    height: 300px;
-    padding-top: 90px;
-    /*margin: 240px auto;*/
-}
-   
-.row-container .col-sm {
-    position: relative;
-    padding-top: 70px;
-    width: calc(300px - 30px);
-    height: calc(150px - 30px);
-    background: yellow;
-    float: left;
-    margin-left: 80px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.row-container .col-sm .icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 /*---Form---*/
 
 .contact {   
@@ -251,7 +213,7 @@ img {
 .contact-form {
     margin-top: 50px;
     transition: all 4s ease-in-out;
-    padding-left: 40px;
+    padding-left: 10px;
     width: 100%;
     height: auto;
     margin: -30px;
@@ -267,7 +229,7 @@ img {
     width: 100%;
     height: auto;
     flex: 50%;
-    padding: 30px;
+    padding: 0px;
 }
 
 .contact-map iframe {
@@ -324,6 +286,7 @@ form .submit:hover {
     position: relative;
     width: 100%;
     height: auto;
+    background: #f3f0f0;
 }
 
 .row-colum {
@@ -336,10 +299,10 @@ form .submit:hover {
 
 .row-colum .col-xl {
     position: relative;
-    width: calc(900px - 30px);
+    width: calc(700px - 30px);
     height: calc(600px - 30px);
     float: left;
-    margin-left: 15px;
+    margin-left: 513px;
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 10px;

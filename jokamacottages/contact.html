@@ -35,11 +35,11 @@
                 !2sHoma%20Bay%2C%20Kenya!5e0!3m2!1sen!2sie!4v1616083199180!5m2!1sen!2sie" 
                 width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <form onsubmit="return sendMail(this)" method="POST">
-            <input name="name" type="text" class="form-control" placeholder="Your Nmae" required><br>
-            <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
-            <input type="submit" class="form-control submit" value="Send Message">
+            <form onsubmit="return sendMail(this);" method="POST">
+                <input name="name" type="text" class="form-control" id="fullname" placeholder="Your Name" required><br>
+                <input name="email" type="email" class="form-control" id="emailaddress" placeholder="Your Email" required><br>
+                <textarea name="message" class="form-control" id="bookingsummary" placeholder="Message" rows="4" required></textarea><br>
+                <input type="submit" class="form-control submit" value="Send Booking Request">
             </form>
         </div>
     </section>
