@@ -29,7 +29,7 @@ li {
 #logo {
     cursor: pointer;
     color: #fff;
-    padding-left: 40px;
+    padding-left: 60px;
     padding-top: 40px;
     font-weight: 900;
     font-size: x-large;
@@ -47,7 +47,7 @@ li {
 .nav_links li {
     display: inline-block;
     margin-left: 20px;
-    padding-right: 40px;
+    padding-right: 60px;
     padding-top: 50px;
     border: none;
     cursor: pointer;
@@ -81,7 +81,7 @@ body {
     padding-top: 22%;
 }
 
-.moto {
+.intro {
     color: #fff;
     padding-top: 220px;
     padding-right: 100px;
@@ -125,7 +125,7 @@ h3 {
     top: 15px;
 }
 
-.kenya {
+.places {
     position: relative;
     background: #fff;
     width: 100%;
@@ -139,6 +139,7 @@ h3 {
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 40px;
     /*margin: 240px auto;*/
 }
    
@@ -147,7 +148,7 @@ h3 {
     width: calc(400px - 30px);
     height: calc(400px - 30px);
     float: left;
-    margin-left: 20px;
+    margin-left: -20px;
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 10px;
@@ -174,7 +175,7 @@ img {
 }
 
 
-.kisumu {
+.join {
     position: relative;
     padding-top: 50px;
     background: #fff;
@@ -193,7 +194,7 @@ img {
 .container-row .col-xl {
     position: relative;
     width: calc(1290px - 30px);
-    height: calc(400px - 30px);
+    height: calc(500px - 30px);
     float: left;
     margin-left: -75px;
     box-sizing: border-box;
@@ -282,10 +283,11 @@ form .submit:hover {
 
 /*---Map--*/
 
-.marera {
+.route {
     position: relative;
     width: 100%;
     height: auto;
+    margin-top: 130px;
     background: #f3f0f0;
 }
 
@@ -299,7 +301,7 @@ form .submit:hover {
 
 .row-colum .col-xl {
     position: relative;
-    width: calc(700px - 30px);
+    width: calc(600px - 30px);
     height: calc(600px - 30px);
     float: left;
     margin-left: 513px;
