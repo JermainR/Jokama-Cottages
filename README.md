@@ -1,45 +1,134 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# JokamaCottages Website
+## **User Expirience (UX)**
+___
+* **User Stories**
+  * First Time Visitor Goals
+    1. I want to quickly and easily understand the main purpose of the website and what it offers and what the organisation offers
+    1. It should be easy for me to navigate around the site without confusion to find content
+    1. It is important for me to get a feel of what the site users say about the organisation and if they can be trusted. Social media links should be readily accessible
+  
+  * Returning Visitor
+    1. Find More information about the local area
+    1. There should several ways of communicating with business if i need more information
+    1. Better quality pictures
 
-Welcome JermainR,
+* **Design**
+    
+    * **Colour Scheme**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+        * The main colours used are rgb(221, 205, 205, #24252a, #fff, #0088a9, #000, grey and #0088a9.
 
-## Gitpod Reminders
+    * **Typography**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+        * The Helvetica font is the main font used through out the whole website with Sans Serif as the fallback font incase the font is not being imported correctly into the site.
 
-`python3 -m http.server`
+    * **Imagery**
 
-A blue button should appear to click: *Make Public*,
+        * Imagery should be bold and striking to catch fist time the attention of the visitor. The aesthetics should be mordern.
 
-Another blue button should appear to click: *Open Browser*.
+* **Wireframes**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    * Home page wireframe
+    * Contact wireframe
+    * Mobile wireframe
+    
+## **Features**
+___
+* Responsive on all device sizes
+* Interactive elements
 
-A blue button should appear to click: *Make Public*,
+##  **Technologies Used**
+___
+### **Languages Used**
+* HTML5
+* CSS3 
+* Javascript (JS) 
 
-Another blue button should appear to click: *Open Browser*.
+### **Frameworks, Libraries & Programmes Used**
+1. **Bootstrap 4.5.2:**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    * Used to assist with the responsiveness and styling of the website.
+1. **Hover.CSS:**
 
-## Updates Since The Instructional Video
+    * Used on social media icons on the footer.
+1. **Font Awesome:**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    * Used on the two pages through out the website for UX purposes.
+1. **Google MarkerCluster and Google API:**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    * Used to adjust cluster positions and intergrate google map.
+1. **Emailjs:** 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    * Used to help send emails using client side technology.
+1. **Google Iframe:**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    * Used to load external URL element for the contact form.
+1. **Git:**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    * Used for version control by using the Gitpod terminal to add, commit and pudh to GitHub.
+1. **GitHub:**
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    * Used to store projects codes after push from Git.
+1. **Adobe XD:**
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    * Used to create wireframes during the design process.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## **Testing**
+___
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
---------
 
-Happy coding!
+* W3C Markup Validator - 
+* W3C CSS Validator -
+
+### **Further Testing**
+* Friends and family members were asked to review the site and documentation for UX purposes.
+* The website was viewed on various device sizes such as Desktop, Laptop and Mobile phones.
+* More test was done to ensure the pages link correctly, the google map and contact form work.
+* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+
+## **Deployment**
+___
+
+### **GitHub Pages**
+The project was deployed to GitHub Pages using the following steps;
+
+1. Log in to GitHub and locate the GitHub Repository
+1. At the top of the Repository (not top of page), locate the "Settings" Button on the menu;
+1. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+1. Under "Source", click the dropdown called "None" and select "Master Branch".
+1. he page will automatically refresh.
+1. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### **Forking the GitHub Repository**
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps;
+
+1. Log in to GitHub and locate the GitHub Repository
+1. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+1. You should now have a copy of the original repository in your GitHub account.
+
+## **Credits**
+___
+### **Code**
+
+* Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+### **Content**
+
+* All contentwas written by developer.
+* Code Institute README.md template
+
+### **Media**
+
+* Images from google Images.
+
+### **Acknowledgement**
+
+* My Mentor for continuous helpful feedback.
+* Tutor support at Code Institute for their support.
+
+
+
+    
+       
+
