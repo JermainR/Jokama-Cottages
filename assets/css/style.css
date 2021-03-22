@@ -174,11 +174,9 @@ img {
     margin: 0px;
 }
 
-
 .join {
     position: relative;
     padding-top: 50px;
-    /*background: #fff;*/
     width: 100%;
     height: auto;
 }
@@ -187,8 +185,7 @@ img {
     position: relative;
     width: 1525px;
     height: 420px;
-    margin-left: -30;
-    /*margin: 240px auto;*/
+    margin-left: -30px;
 }
    
 .container-row .col-xl {
@@ -226,7 +223,6 @@ img {
     flex-wrap: wrap;
     flex: 50px;
     border-radius: 10px;
-    box-shadow: 0px, 0px, 10px, 0px, #666;
 }
 
 .contact-map {
@@ -298,7 +294,7 @@ form .submit:hover {
     position: relative;
     width: 1110px;
     height: 720px;
-    margin-left: -30;
+    margin-left: -30px;
     padding-top: 70px;
 }
 
@@ -361,11 +357,11 @@ footer .footer-bottom {
     color: #fff;
 }
 
-.socials a li {
+/*.socials a li {
     color: #e7f2f4;
     padding-top: 10px 12px;
     font-size: 20px;
-}
+}*/
 
 /*---Media Queries*/
 
@@ -434,14 +430,14 @@ footer .footer-bottom {
     .row  {
         width: 400px;
         padding-left: 0px;
-    };
+    }
 }
 
 @media all and (max-width: 1024px) {
     .row .col-lg {
         width: calc(432px - 30px);
         padding-left: 0px;
-    };
+    }
 }
 
 @media all and (max-width: 1024px) {
@@ -457,7 +453,7 @@ footer .footer-bottom {
         width: 0px;
         height: 1000px;
         margin-left: -10px;
-    };
+    }
 }
 
 @media all and (max-width: 1024px) {
