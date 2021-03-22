@@ -206,7 +206,7 @@ img {
     margin-top: 0;
 }
 
-/*---Form---*/
+/*---Contact Form---*/
 
 .contact {   
     width: 100%;
@@ -217,11 +217,11 @@ img {
 
 .contact-form {
     margin-top: 50px;
-    transition: all 4s ease-in-out;
+    transition: all 2s ease-in-out;
     padding-left: 10px;
-    width: 100%;
+    width: 85%;
     height: auto;
-    margin: -30px;
+    margin: 80px;
     display: flex;
     flex-wrap: wrap;
     flex: 50px;
@@ -243,10 +243,10 @@ img {
 }
 
 h1 {
-    padding-left: 40px;
-    margin-bottom: -90px;
-    margin-top: 40px;
-    transition: all 4s ease-in-out;
+    padding-left: 75px;
+    margin-bottom: -100px;
+    margin-top: 60px;
+    transition: all 2s ease-in-out;
 }
 
 .form-control {
@@ -256,7 +256,7 @@ h1 {
     outline: none;
     border-bottom: 1px solid grey;
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 16px;
 }
 
@@ -532,6 +532,35 @@ footer .footer-bottom {
         padding-top: 320px;
     }
 }
+
+@media all and (min-width: 360px) {
+    .contact-form {
+        padding-left: 0px;
+        margin: 0px;
+        margin-right: -60px;
+    }
+}
+
+@media all and (min-width: 360px) {
+    .form-control {
+        font-size: 15px;
+        border-bottom: none;
+    }
+}
+
+@media all and (min-width: 360px) {
+    .contact {
+        height: 117vh;
+    }
+}
+
+@media all and (min-width: 360px) {
+    form .submit {
+        width: 375px;
+    }
+}
+
+
 
 
 
