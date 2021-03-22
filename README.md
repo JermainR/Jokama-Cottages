@@ -84,6 +84,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 * W3C Markup Validator - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjermainr.github.io%2FJokama-Cottages%2F.) 
 * W3C CSS Validator - [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjermainr.github.io%2FJokama-Cottages%2F.&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* Desktop Lighthouse Validator - [Result](assets/images/desktopjs.png)
+* Mobile Lighthouse Validator - [Result](assets/images/mobilejs.png)
 
 ### **Further Testing**
 * Friends and family members were asked to review the site and documentation for UX purposes.
