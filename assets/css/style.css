@@ -190,10 +190,10 @@ img {
    
 .container-row .col-xl {
     position: relative;
-    width: calc(1290px - 30px);
+    width: calc(1300px - 30px);
     height: calc(500px - 30px);
     float: left;
-    margin-left: -75px;
+    margin-left: -55px;
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 10px;
