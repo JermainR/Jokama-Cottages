@@ -226,7 +226,6 @@ img {
     flex-wrap: wrap;
     flex: 50px;
     border-radius: 10px;
-    background-color: #fff;
     box-shadow: 0px, 0px, 10px, 0px, #666;
 }
 
@@ -371,13 +370,13 @@ footer .footer-bottom {
 /*---Media Queries*/
 
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     #logo {
         padding-left: 40px;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .intro {
         padding-top: 460px;
         font-size: xx-large;
@@ -385,45 +384,45 @@ footer .footer-bottom {
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .hero-img {
         height: 88vh;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .hero {
         height: 100%;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .about {
         margin-left: -210px;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .container-row .col-xl {
         width: calc(500px - 30px);
         height: calc(500px - 30px);
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     h2 {
         padding-left: 5px;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     h3 {
         padding-left: 0px;
         margin-left: -25px;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     h4 {
         margin-left: 35px;
         font-size: 2em;
@@ -431,21 +430,21 @@ footer .footer-bottom {
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .row  {
         width: 400px;
         padding-left: 0px;
     };
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .row .col-lg {
-        width: calc(500px - 30px);
+        width: calc(432px - 30px);
         padding-left: 0px;
     };
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 1024px) {
     .row-colum .col-xl {
         width: calc(450px - 30px);
         height: calc(500px - 30px);
@@ -453,7 +452,7 @@ footer .footer-bottom {
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .row-colum {
         width: 0px;
         height: 1000px;
@@ -461,52 +460,54 @@ footer .footer-bottom {
     };
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .places {
         background: none;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .about .box {
         width: calc(396px - 30px);
         height: calc(500px - 30px);
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .container {
         padding-left: 30px;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .area {
         padding-left: 40px;
-        padding-left: 20px;
+        padding-left: 25px;
+        margin-right: 40px;
+        margin-left: 10px;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .route {
         margin-top: 50px;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .row-colum .col-xl-route {
         margin-left: 0px;
         width: calc(400px - 30px);
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .visit {
         margin-top: 0px;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     .footer-socials a {
         margin-top: 0px;
         padding-top: 10px;
@@ -514,26 +515,26 @@ footer .footer-bottom {
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     footer .footer-bottom {
         padding-left: 22px;
         padding-top: 50px;
     }
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
     footer {
         height: 100px;
     }
 }
 
-@media all and (max-width: 360px) {
+@media all and (max-width: 1024px) {
     .intro {
         padding-top: 320px;
     }
 }
 
-@media all and (min-width: 360px) {
+@media all and (max-width: 1024px) {
     .contact-form {
         padding-left: 0px;
         margin: 0px;
@@ -541,20 +542,20 @@ footer .footer-bottom {
     }
 }
 
-@media all and (min-width: 360px) {
+@media all and (max-width: 1024px) {
     .form-control {
         font-size: 15px;
         border-bottom: none;
     }
 }
 
-@media all and (min-width: 360px) {
+@media all and (max-width: 1024px) {
     .contact {
         height: 117vh;
     }
 }
 
-@media all and (min-width: 360px) {
+@media all and (max-width: 1024px) {
     form .submit {
         width: 375px;
     }
