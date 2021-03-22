@@ -1,4 +1,7 @@
 # JokamaCottages Website
+
+[View the live project here](https://jermainr.github.io/Jokama-Cottages/)
+
 ## **User Expirience (UX)**
 ___
 * **User Stories**
@@ -28,9 +31,10 @@ ___
 
 * **Wireframes**
 
-    * Home page wireframe
-    * Contact wireframe
-    * Mobile wireframe
+    * Home page wireframe - [View](assets/images/home2.png)
+    * Contact wireframe - [View](assets/images/contact2.png)
+    * Mobile home page wireframe - [View](assets/images/home1.png)
+    * Mobile contact page wireframe - [View](assets/images/contact1.png)
     
 ## **Features**
 ___
